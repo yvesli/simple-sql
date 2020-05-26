@@ -28,7 +28,7 @@ public class SingleDirDatabase implements DatabaseHandler {
     @Override
     public File getTable(String name) {
         assertInit();
-        return new File(dbFolderPath + name);
+        return new File(dbFolderPath + "/" + name);
     }
 
     @Override

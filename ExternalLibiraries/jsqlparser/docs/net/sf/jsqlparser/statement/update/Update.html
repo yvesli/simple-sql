@@ -137,7 +137,7 @@ The update statement.
 </TR>
 <TR BGCOLOR="white" CLASS="TableRowColor">
 <TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
-<CODE>private &nbsp;<A HREF="../../../../../net/sf/jsqlparser/schema/Table.html" title="class in net.sf.jsqlparser.schema">Table</A></CODE></FONT></TD>
+<CODE>private &nbsp;<A HREF="../../../../../net/sf/jsqlparser/schemaLoader/Table.html" title="class in net.sf.jsqlparser.schemaLoader">Table</A></CODE></FONT></TD>
 <TD><CODE><B><A HREF="../../../../../net/sf/jsqlparser/statement/update/Update.html#table">table</A></B></CODE>
 
 <BR>
@@ -191,7 +191,7 @@ The update statement.
 <TD><CODE><B><A HREF="../../../../../net/sf/jsqlparser/statement/update/Update.html#getColumns()">getColumns</A></B>()</CODE>
 
 <BR>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The <A HREF="../../../../../net/sf/jsqlparser/schema/Column.html" title="class in net.sf.jsqlparser.schema"><CODE>Column</CODE></A>s in this update (as col1 and col2 in UPDATE col1='a', col2='b')</TD>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The <A HREF="../../../../../net/sf/jsqlparser/schemaLoader/Column.html" title="class in net.sf.jsqlparser.schemaLoader"><CODE>Column</CODE></A>s in this update (as col1 and col2 in UPDATE col1='a', col2='b')</TD>
 </TR>
 <TR BGCOLOR="white" CLASS="TableRowColor">
 <TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
@@ -203,7 +203,7 @@ The update statement.
 </TR>
 <TR BGCOLOR="white" CLASS="TableRowColor">
 <TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
-<CODE>&nbsp;<A HREF="../../../../../net/sf/jsqlparser/schema/Table.html" title="class in net.sf.jsqlparser.schema">Table</A></CODE></FONT></TD>
+<CODE>&nbsp;<A HREF="../../../../../net/sf/jsqlparser/schemaLoader/Table.html" title="class in net.sf.jsqlparser.schemaLoader">Table</A></CODE></FONT></TD>
 <TD><CODE><B><A HREF="../../../../../net/sf/jsqlparser/statement/update/Update.html#getTable()">getTable</A></B>()</CODE>
 
 <BR>
@@ -236,7 +236,7 @@ The update statement.
 <TR BGCOLOR="white" CLASS="TableRowColor">
 <TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
 <CODE>&nbsp;void</CODE></FONT></TD>
-<TD><CODE><B><A HREF="../../../../../net/sf/jsqlparser/statement/update/Update.html#setTable(net.sf.jsqlparser.schema.Table)">setTable</A></B>(<A HREF="../../../../../net/sf/jsqlparser/schema/Table.html" title="class in net.sf.jsqlparser.schema">Table</A>&nbsp;name)</CODE>
+<TD><CODE><B><A HREF="../../../../../net/sf/jsqlparser/statement/update/Update.html#setTable(net.sf.jsqlparser.schemaLoader.Table)">setTable</A></B>(<A HREF="../../../../../net/sf/jsqlparser/schemaLoader/Table.html" title="class in net.sf.jsqlparser.schemaLoader">Table</A>&nbsp;name)</CODE>
 
 <BR>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
@@ -275,7 +275,7 @@ The update statement.
 <A NAME="table"><!-- --></A><H3>
 table</H3>
 <PRE>
-private <A HREF="../../../../../net/sf/jsqlparser/schema/Table.html" title="class in net.sf.jsqlparser.schema">Table</A> <B>table</B></PRE>
+private <A HREF="../../../../../net/sf/jsqlparser/schemaLoader/Table.html" title="class in net.sf.jsqlparser.schemaLoader">Table</A> <B>table</B></PRE>
 <DL>
 <DL>
 </DL>
@@ -355,7 +355,7 @@ public void <B>accept</B>(<A HREF="../../../../../net/sf/jsqlparser/statement/St
 <A NAME="getTable()"><!-- --></A><H3>
 getTable</H3>
 <PRE>
-public <A HREF="../../../../../net/sf/jsqlparser/schema/Table.html" title="class in net.sf.jsqlparser.schema">Table</A> <B>getTable</B>()</PRE>
+public <A HREF="../../../../../net/sf/jsqlparser/schemaLoader/Table.html" title="class in net.sf.jsqlparser.schemaLoader">Table</A> <B>getTable</B>()</PRE>
 <DL>
 <DD><DL>
 </DL>
@@ -380,10 +380,10 @@ public <A HREF="../../../../../net/sf/jsqlparser/expression/Expression.html" tit
 </DL>
 <HR>
 
-<A NAME="setTable(net.sf.jsqlparser.schema.Table)"><!-- --></A><H3>
+<A NAME="setTable(net.sf.jsqlparser.schemaLoader.Table)"><!-- --></A><H3>
 setTable</H3>
 <PRE>
-public void <B>setTable</B>(<A HREF="../../../../../net/sf/jsqlparser/schema/Table.html" title="class in net.sf.jsqlparser.schema">Table</A>&nbsp;name)</PRE>
+public void <B>setTable</B>(<A HREF="../../../../../net/sf/jsqlparser/schemaLoader/Table.html" title="class in net.sf.jsqlparser.schemaLoader">Table</A>&nbsp;name)</PRE>
 <DL>
 <DD><DL>
 </DL>
@@ -413,14 +413,14 @@ getColumns</H3>
 <PRE>
 public java.util.List <B>getColumns</B>()</PRE>
 <DL>
-<DD>The <A HREF="../../../../../net/sf/jsqlparser/schema/Column.html" title="class in net.sf.jsqlparser.schema"><CODE>Column</CODE></A>s in this update (as col1 and col2 in UPDATE col1='a', col2='b')
+<DD>The <A HREF="../../../../../net/sf/jsqlparser/schemaLoader/Column.html" title="class in net.sf.jsqlparser.schemaLoader"><CODE>Column</CODE></A>s in this update (as col1 and col2 in UPDATE col1='a', col2='b')
 <P>
 <DD><DL>
 </DL>
 </DD>
 <DD><DL>
 
-<DT><B>Returns:</B><DD>a list of <A HREF="../../../../../net/sf/jsqlparser/schema/Column.html" title="class in net.sf.jsqlparser.schema"><CODE>Column</CODE></A>s</DL>
+<DT><B>Returns:</B><DD>a list of <A HREF="../../../../../net/sf/jsqlparser/schemaLoader/Column.html" title="class in net.sf.jsqlparser.schemaLoader"><CODE>Column</CODE></A>s</DL>
 </DD>
 </DL>
 <HR>

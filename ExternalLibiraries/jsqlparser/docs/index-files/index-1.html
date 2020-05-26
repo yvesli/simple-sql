@@ -202,14 +202,14 @@ Method in class net.sf.jsqlparser.expression.<A HREF="../net/sf/jsqlparser/expre
 <DT><A HREF="../net/sf/jsqlparser/expression/WhenClause.html#accept(net.sf.jsqlparser.expression.ExpressionVisitor)"><B>accept(ExpressionVisitor)</B></A> - 
 Method in class net.sf.jsqlparser.expression.<A HREF="../net/sf/jsqlparser/expression/WhenClause.html" title="class in net.sf.jsqlparser.expression">WhenClause</A>
 <DD>&nbsp;
-<DT><A HREF="../net/sf/jsqlparser/schema/Column.html#accept(net.sf.jsqlparser.expression.ExpressionVisitor)"><B>accept(ExpressionVisitor)</B></A> - 
-Method in class net.sf.jsqlparser.schema.<A HREF="../net/sf/jsqlparser/schema/Column.html" title="class in net.sf.jsqlparser.schema">Column</A>
+<DT><A HREF="../net/sf/jsqlparser/schemaLoader/Column.html#accept(net.sf.jsqlparser.expression.ExpressionVisitor)"><B>accept(ExpressionVisitor)</B></A> -
+Method in class net.sf.jsqlparser.schemaLoader.<A HREF="../net/sf/jsqlparser/schemaLoader/Column.html" title="class in net.sf.jsqlparser.schemaLoader">Column</A>
 <DD>&nbsp;
-<DT><A HREF="../net/sf/jsqlparser/schema/Table.html#accept(net.sf.jsqlparser.statement.select.FromItemVisitor)"><B>accept(FromItemVisitor)</B></A> - 
-Method in class net.sf.jsqlparser.schema.<A HREF="../net/sf/jsqlparser/schema/Table.html" title="class in net.sf.jsqlparser.schema">Table</A>
+<DT><A HREF="../net/sf/jsqlparser/schemaLoader/Table.html#accept(net.sf.jsqlparser.statement.select.FromItemVisitor)"><B>accept(FromItemVisitor)</B></A> -
+Method in class net.sf.jsqlparser.schemaLoader.<A HREF="../net/sf/jsqlparser/schemaLoader/Table.html" title="class in net.sf.jsqlparser.schemaLoader">Table</A>
 <DD>&nbsp;
-<DT><A HREF="../net/sf/jsqlparser/schema/Table.html#accept(net.sf.jsqlparser.statement.select.IntoTableVisitor)"><B>accept(IntoTableVisitor)</B></A> - 
-Method in class net.sf.jsqlparser.schema.<A HREF="../net/sf/jsqlparser/schema/Table.html" title="class in net.sf.jsqlparser.schema">Table</A>
+<DT><A HREF="../net/sf/jsqlparser/schemaLoader/Table.html#accept(net.sf.jsqlparser.statement.select.IntoTableVisitor)"><B>accept(IntoTableVisitor)</B></A> -
+Method in class net.sf.jsqlparser.schemaLoader.<A HREF="../net/sf/jsqlparser/schemaLoader/Table.html" title="class in net.sf.jsqlparser.schemaLoader">Table</A>
 <DD>&nbsp;
 <DT><A HREF="../net/sf/jsqlparser/statement/create/table/CreateTable.html#accept(net.sf.jsqlparser.statement.StatementVisitor)"><B>accept(StatementVisitor)</B></A> - 
 Method in class net.sf.jsqlparser.statement.create.table.<A HREF="../net/sf/jsqlparser/statement/create/table/CreateTable.html" title="class in net.sf.jsqlparser.statement.create.table">CreateTable</A>
@@ -298,8 +298,8 @@ Method in class net.sf.jsqlparser.parser.<A HREF="../net/sf/jsqlparser/parser/Si
 <DT><A HREF="../net/sf/jsqlparser/parser/CCJSqlParser.html#Alias()"><B>Alias()</B></A> - 
 Method in class net.sf.jsqlparser.parser.<A HREF="../net/sf/jsqlparser/parser/CCJSqlParser.html" title="class in net.sf.jsqlparser.parser">CCJSqlParser</A>
 <DD>&nbsp;
-<DT><A HREF="../net/sf/jsqlparser/schema/Table.html#alias"><B>alias</B></A> - 
-Variable in class net.sf.jsqlparser.schema.<A HREF="../net/sf/jsqlparser/schema/Table.html" title="class in net.sf.jsqlparser.schema">Table</A>
+<DT><A HREF="../net/sf/jsqlparser/schemaLoader/Table.html#alias"><B>alias</B></A> -
+Variable in class net.sf.jsqlparser.schemaLoader.<A HREF="../net/sf/jsqlparser/schemaLoader/Table.html" title="class in net.sf.jsqlparser.schemaLoader">Table</A>
 <DD>&nbsp;
 <DT><A HREF="../net/sf/jsqlparser/statement/select/SelectExpressionItem.html#alias"><B>alias</B></A> - 
 Variable in class net.sf.jsqlparser.statement.select.<A HREF="../net/sf/jsqlparser/statement/select/SelectExpressionItem.html" title="class in net.sf.jsqlparser.statement.select">SelectExpressionItem</A>
@@ -334,7 +334,7 @@ Method in class net.sf.jsqlparser.parser.<A HREF="../net/sf/jsqlparser/parser/CC
 <DT><A HREF="../net/sf/jsqlparser/statement/select/AllTableColumns.html" title="class in net.sf.jsqlparser.statement.select"><B>AllTableColumns</B></A> - Class in <A HREF="../net/sf/jsqlparser/statement/select/package-summary.html">net.sf.jsqlparser.statement.select</A><DD>&nbsp;<DT><A HREF="../net/sf/jsqlparser/statement/select/AllTableColumns.html#AllTableColumns()"><B>AllTableColumns()</B></A> - 
 Constructor for class net.sf.jsqlparser.statement.select.<A HREF="../net/sf/jsqlparser/statement/select/AllTableColumns.html" title="class in net.sf.jsqlparser.statement.select">AllTableColumns</A>
 <DD>&nbsp;
-<DT><A HREF="../net/sf/jsqlparser/statement/select/AllTableColumns.html#AllTableColumns(net.sf.jsqlparser.schema.Table)"><B>AllTableColumns(Table)</B></A> - 
+<DT><A HREF="../net/sf/jsqlparser/statement/select/AllTableColumns.html#AllTableColumns(net.sf.jsqlparser.schemaLoader.Table)"><B>AllTableColumns(Table)</B></A> -
 Constructor for class net.sf.jsqlparser.statement.select.<A HREF="../net/sf/jsqlparser/statement/select/AllTableColumns.html" title="class in net.sf.jsqlparser.statement.select">AllTableColumns</A>
 <DD>&nbsp;
 <DT><A HREF="../net/sf/jsqlparser/expression/operators/conditional/AndExpression.html" title="class in net.sf.jsqlparser.expression.operators.conditional"><B>AndExpression</B></A> - Class in <A HREF="../net/sf/jsqlparser/expression/operators/conditional/package-summary.html">net.sf.jsqlparser.expression.operators.conditional</A><DD>&nbsp;<DT><A HREF="../net/sf/jsqlparser/expression/operators/conditional/AndExpression.html#AndExpression(net.sf.jsqlparser.expression.Expression, net.sf.jsqlparser.expression.Expression)"><B>AndExpression(Expression, Expression)</B></A> - 

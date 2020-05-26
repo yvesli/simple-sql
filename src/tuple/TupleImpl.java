@@ -29,8 +29,8 @@ class TupleImpl implements Tuple {
 
     @SuppressWarnings("unchecked")
     @Override
-    public <T> T getNthValue(int i) {
-        return (T) values;
+    public Object getNthValue(int i) {
+        return type.getNthType(i).cast(values[i]);
     }
 
     @Override

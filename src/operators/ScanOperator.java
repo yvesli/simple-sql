@@ -4,23 +4,31 @@ import tools.RowParser;
 import tuple.Tuple;
 
 import java.io.*;
-import java.util.Iterator;
 import java.util.Scanner;
 
 public class ScanOperator extends Operator {
 
-    private File file;
+    private final File file;
     private Scanner scanner;
 
-    public ScanOperator(File file) throws FileNotFoundException {
+    public ScanOperator(File file) {
         this.file = file;
-        scanner = new Scanner(file);
+        try {
+            scanner = new Scanner(file);
+        } catch (FileNotFoundException e) {
+            System.out.println("File " + file.getName() + " Not Found");
+            e.printStackTrace();
+        }
     }
 
     @Override
     public Tuple getNextTuple() {
-        String currentLine = scanner.nextLine();
-        return RowParser.parse(currentLine);
+        if (scanner.hasNextLine()) {
+            String currentLine = scanner.nextLine();
+            return RowParser.parse(currentLine);
+        } else {
+            return null;
+        }
     }
 
     @Override

@@ -97,8 +97,8 @@ Static variable in interface net.sf.jsqlparser.parser.<A HREF="../net/sf/jsqlpar
 <DT><A HREF="../net/sf/jsqlparser/parser/CCJSqlParserConstants.html#S_QUOTED_IDENTIFIER"><B>S_QUOTED_IDENTIFIER</B></A> - 
 Static variable in interface net.sf.jsqlparser.parser.<A HREF="../net/sf/jsqlparser/parser/CCJSqlParserConstants.html" title="interface in net.sf.jsqlparser.parser">CCJSqlParserConstants</A>
 <DD>RegularExpression Id.
-<DT><A HREF="../net/sf/jsqlparser/schema/Table.html#schemaName"><B>schemaName</B></A> - 
-Variable in class net.sf.jsqlparser.schema.<A HREF="../net/sf/jsqlparser/schema/Table.html" title="class in net.sf.jsqlparser.schema">Table</A>
+<DT><A HREF="../net/sf/jsqlparser/schemaLoader/Table.html#schemaName"><B>schemaName</B></A> -
+Variable in class net.sf.jsqlparser.schemaLoader.<A HREF="../net/sf/jsqlparser/schemaLoader/Table.html" title="class in net.sf.jsqlparser.schemaLoader">Table</A>
 <DD>&nbsp;
 <DT><A HREF="../net/sf/jsqlparser/parser/CCJSqlParser.html#Select()"><B>Select()</B></A> - 
 Method in class net.sf.jsqlparser.parser.<A HREF="../net/sf/jsqlparser/parser/CCJSqlParser.html" title="class in net.sf.jsqlparser.parser">CCJSqlParser</A>
@@ -132,7 +132,7 @@ Constructor for class net.sf.jsqlparser.statement.select.<A HREF="../net/sf/jsql
 Method in class net.sf.jsqlparser.parser.<A HREF="../net/sf/jsqlparser/parser/CCJSqlParser.html" title="class in net.sf.jsqlparser.parser">CCJSqlParser</A>
 <DD>&nbsp;
 <DT><A HREF="../net/sf/jsqlparser/statement/select/SelectItem.html" title="interface in net.sf.jsqlparser.statement.select"><B>SelectItem</B></A> - Interface in <A HREF="../net/sf/jsqlparser/statement/select/package-summary.html">net.sf.jsqlparser.statement.select</A><DD>Anything between "SELECT" and "FROM"<BR>
- (that is, any column or expression etc to be retrieved with the query)<DT><A HREF="../net/sf/jsqlparser/statement/select/PlainSelect.html#selectItems"><B>selectItems</B></A> - 
+ (that is, any column or expression etc to be retrieved with the queryFileManager)<DT><A HREF="../net/sf/jsqlparser/statement/select/PlainSelect.html#selectItems"><B>selectItems</B></A> -
 Variable in class net.sf.jsqlparser.statement.select.<A HREF="../net/sf/jsqlparser/statement/select/PlainSelect.html" title="class in net.sf.jsqlparser.statement.select">PlainSelect</A>
 <DD>&nbsp;
 <DT><A HREF="../net/sf/jsqlparser/parser/CCJSqlParser.html#SelectItemsList()"><B>SelectItemsList()</B></A> - 
@@ -156,8 +156,8 @@ Static variable in class net.sf.jsqlparser.parser.<A HREF="../net/sf/jsqlparser/
 <DT><A HREF="../net/sf/jsqlparser/parser/TokenMgrError.html#serialVersionUID"><B>serialVersionUID</B></A> - 
 Static variable in error net.sf.jsqlparser.parser.<A HREF="../net/sf/jsqlparser/parser/TokenMgrError.html" title="class in net.sf.jsqlparser.parser">TokenMgrError</A>
 <DD>The version identifier for this Serializable class.
-<DT><A HREF="../net/sf/jsqlparser/schema/Table.html#setAlias(java.lang.String)"><B>setAlias(String)</B></A> - 
-Method in class net.sf.jsqlparser.schema.<A HREF="../net/sf/jsqlparser/schema/Table.html" title="class in net.sf.jsqlparser.schema">Table</A>
+<DT><A HREF="../net/sf/jsqlparser/schemaLoader/Table.html#setAlias(java.lang.String)"><B>setAlias(String)</B></A> -
+Method in class net.sf.jsqlparser.schemaLoader.<A HREF="../net/sf/jsqlparser/schemaLoader/Table.html" title="class in net.sf.jsqlparser.schemaLoader">Table</A>
 <DD>&nbsp;
 <DT><A HREF="../net/sf/jsqlparser/statement/select/FromItem.html#setAlias(java.lang.String)"><B>setAlias(String)</B></A> - 
 Method in interface net.sf.jsqlparser.statement.select.<A HREF="../net/sf/jsqlparser/statement/select/FromItem.html" title="interface in net.sf.jsqlparser.statement.select">FromItem</A>
@@ -219,8 +219,8 @@ Method in class net.sf.jsqlparser.statement.create.table.<A HREF="../net/sf/jsql
 <DT><A HREF="../net/sf/jsqlparser/statement/create/table/CreateTable.html#setColumnDefinitions(java.util.List)"><B>setColumnDefinitions(List)</B></A> - 
 Method in class net.sf.jsqlparser.statement.create.table.<A HREF="../net/sf/jsqlparser/statement/create/table/CreateTable.html" title="class in net.sf.jsqlparser.statement.create.table">CreateTable</A>
 <DD>&nbsp;
-<DT><A HREF="../net/sf/jsqlparser/schema/Column.html#setColumnName(java.lang.String)"><B>setColumnName(String)</B></A> - 
-Method in class net.sf.jsqlparser.schema.<A HREF="../net/sf/jsqlparser/schema/Column.html" title="class in net.sf.jsqlparser.schema">Column</A>
+<DT><A HREF="../net/sf/jsqlparser/schemaLoader/Column.html#setColumnName(java.lang.String)"><B>setColumnName(String)</B></A> -
+Method in class net.sf.jsqlparser.schemaLoader.<A HREF="../net/sf/jsqlparser/schemaLoader/Column.html" title="class in net.sf.jsqlparser.schemaLoader">Column</A>
 <DD>&nbsp;
 <DT><A HREF="../net/sf/jsqlparser/statement/create/table/ColumnDefinition.html#setColumnName(java.lang.String)"><B>setColumnName(String)</B></A> - 
 Method in class net.sf.jsqlparser.statement.create.table.<A HREF="../net/sf/jsqlparser/statement/create/table/ColumnDefinition.html" title="class in net.sf.jsqlparser.statement.create.table">ColumnDefinition</A>
@@ -318,7 +318,7 @@ Method in class net.sf.jsqlparser.statement.create.table.<A HREF="../net/sf/jsql
 <DT><A HREF="../net/sf/jsqlparser/statement/select/Join.html#setInner(boolean)"><B>setInner(boolean)</B></A> - 
 Method in class net.sf.jsqlparser.statement.select.<A HREF="../net/sf/jsqlparser/statement/select/Join.html" title="class in net.sf.jsqlparser.statement.select">Join</A>
 <DD>&nbsp;
-<DT><A HREF="../net/sf/jsqlparser/statement/select/PlainSelect.html#setInto(net.sf.jsqlparser.schema.Table)"><B>setInto(Table)</B></A> - 
+<DT><A HREF="../net/sf/jsqlparser/statement/select/PlainSelect.html#setInto(net.sf.jsqlparser.schemaLoader.Table)"><B>setInto(Table)</B></A> -
 Method in class net.sf.jsqlparser.statement.select.<A HREF="../net/sf/jsqlparser/statement/select/PlainSelect.html" title="class in net.sf.jsqlparser.statement.select">PlainSelect</A>
 <DD>&nbsp;
 <DT><A HREF="../net/sf/jsqlparser/expression/operators/relational/InExpression.html#setItemsList(net.sf.jsqlparser.expression.operators.relational.ItemsList)"><B>setItemsList(ItemsList)</B></A> - 
@@ -366,8 +366,8 @@ Method in class net.sf.jsqlparser.statement.select.<A HREF="../net/sf/jsqlparser
 <DT><A HREF="../net/sf/jsqlparser/expression/Function.html#setName(java.lang.String)"><B>setName(String)</B></A> - 
 Method in class net.sf.jsqlparser.expression.<A HREF="../net/sf/jsqlparser/expression/Function.html" title="class in net.sf.jsqlparser.expression">Function</A>
 <DD>&nbsp;
-<DT><A HREF="../net/sf/jsqlparser/schema/Table.html#setName(java.lang.String)"><B>setName(String)</B></A> - 
-Method in class net.sf.jsqlparser.schema.<A HREF="../net/sf/jsqlparser/schema/Table.html" title="class in net.sf.jsqlparser.schema">Table</A>
+<DT><A HREF="../net/sf/jsqlparser/schemaLoader/Table.html#setName(java.lang.String)"><B>setName(String)</B></A> -
+Method in class net.sf.jsqlparser.schemaLoader.<A HREF="../net/sf/jsqlparser/schemaLoader/Table.html" title="class in net.sf.jsqlparser.schemaLoader">Table</A>
 <DD>&nbsp;
 <DT><A HREF="../net/sf/jsqlparser/statement/create/table/Index.html#setName(java.lang.String)"><B>setName(String)</B></A> - 
 Method in class net.sf.jsqlparser.statement.create.table.<A HREF="../net/sf/jsqlparser/statement/create/table/Index.html" title="class in net.sf.jsqlparser.statement.create.table">Index</A>
@@ -456,8 +456,8 @@ Method in class net.sf.jsqlparser.statement.select.<A HREF="../net/sf/jsqlparser
 <DT><A HREF="../net/sf/jsqlparser/statement/select/Top.html#setRowCountJdbcParameter(boolean)"><B>setRowCountJdbcParameter(boolean)</B></A> - 
 Method in class net.sf.jsqlparser.statement.select.<A HREF="../net/sf/jsqlparser/statement/select/Top.html" title="class in net.sf.jsqlparser.statement.select">Top</A>
 <DD>&nbsp;
-<DT><A HREF="../net/sf/jsqlparser/schema/Table.html#setSchemaName(java.lang.String)"><B>setSchemaName(String)</B></A> - 
-Method in class net.sf.jsqlparser.schema.<A HREF="../net/sf/jsqlparser/schema/Table.html" title="class in net.sf.jsqlparser.schema">Table</A>
+<DT><A HREF="../net/sf/jsqlparser/schemaLoader/Table.html#setSchemaName(java.lang.String)"><B>setSchemaName(String)</B></A> -
+Method in class net.sf.jsqlparser.schemaLoader.<A HREF="../net/sf/jsqlparser/schemaLoader/Table.html" title="class in net.sf.jsqlparser.schemaLoader">Table</A>
 <DD>&nbsp;
 <DT><A HREF="../net/sf/jsqlparser/statement/select/Select.html#setSelectBody(net.sf.jsqlparser.statement.select.SelectBody)"><B>setSelectBody(SelectBody)</B></A> - 
 Method in class net.sf.jsqlparser.statement.select.<A HREF="../net/sf/jsqlparser/statement/select/Select.html" title="class in net.sf.jsqlparser.statement.select">Select</A>
@@ -489,28 +489,28 @@ Method in class net.sf.jsqlparser.expression.<A HREF="../net/sf/jsqlparser/expre
 <DT><A HREF="../net/sf/jsqlparser/expression/CaseExpression.html#setSwitchExpression(net.sf.jsqlparser.expression.Expression)"><B>setSwitchExpression(Expression)</B></A> - 
 Method in class net.sf.jsqlparser.expression.<A HREF="../net/sf/jsqlparser/expression/CaseExpression.html" title="class in net.sf.jsqlparser.expression">CaseExpression</A>
 <DD>&nbsp;
-<DT><A HREF="../net/sf/jsqlparser/schema/Column.html#setTable(net.sf.jsqlparser.schema.Table)"><B>setTable(Table)</B></A> - 
-Method in class net.sf.jsqlparser.schema.<A HREF="../net/sf/jsqlparser/schema/Column.html" title="class in net.sf.jsqlparser.schema">Column</A>
+<DT><A HREF="../net/sf/jsqlparser/schemaLoader/Column.html#setTable(net.sf.jsqlparser.schemaLoader.Table)"><B>setTable(Table)</B></A> -
+Method in class net.sf.jsqlparser.schemaLoader.<A HREF="../net/sf/jsqlparser/schemaLoader/Column.html" title="class in net.sf.jsqlparser.schemaLoader">Column</A>
 <DD>&nbsp;
-<DT><A HREF="../net/sf/jsqlparser/statement/create/table/CreateTable.html#setTable(net.sf.jsqlparser.schema.Table)"><B>setTable(Table)</B></A> - 
+<DT><A HREF="../net/sf/jsqlparser/statement/create/table/CreateTable.html#setTable(net.sf.jsqlparser.schemaLoader.Table)"><B>setTable(Table)</B></A> -
 Method in class net.sf.jsqlparser.statement.create.table.<A HREF="../net/sf/jsqlparser/statement/create/table/CreateTable.html" title="class in net.sf.jsqlparser.statement.create.table">CreateTable</A>
 <DD>&nbsp;
-<DT><A HREF="../net/sf/jsqlparser/statement/delete/Delete.html#setTable(net.sf.jsqlparser.schema.Table)"><B>setTable(Table)</B></A> - 
+<DT><A HREF="../net/sf/jsqlparser/statement/delete/Delete.html#setTable(net.sf.jsqlparser.schemaLoader.Table)"><B>setTable(Table)</B></A> -
 Method in class net.sf.jsqlparser.statement.delete.<A HREF="../net/sf/jsqlparser/statement/delete/Delete.html" title="class in net.sf.jsqlparser.statement.delete">Delete</A>
 <DD>&nbsp;
-<DT><A HREF="../net/sf/jsqlparser/statement/insert/Insert.html#setTable(net.sf.jsqlparser.schema.Table)"><B>setTable(Table)</B></A> - 
+<DT><A HREF="../net/sf/jsqlparser/statement/insert/Insert.html#setTable(net.sf.jsqlparser.schemaLoader.Table)"><B>setTable(Table)</B></A> -
 Method in class net.sf.jsqlparser.statement.insert.<A HREF="../net/sf/jsqlparser/statement/insert/Insert.html" title="class in net.sf.jsqlparser.statement.insert">Insert</A>
 <DD>&nbsp;
-<DT><A HREF="../net/sf/jsqlparser/statement/replace/Replace.html#setTable(net.sf.jsqlparser.schema.Table)"><B>setTable(Table)</B></A> - 
+<DT><A HREF="../net/sf/jsqlparser/statement/replace/Replace.html#setTable(net.sf.jsqlparser.schemaLoader.Table)"><B>setTable(Table)</B></A> -
 Method in class net.sf.jsqlparser.statement.replace.<A HREF="../net/sf/jsqlparser/statement/replace/Replace.html" title="class in net.sf.jsqlparser.statement.replace">Replace</A>
 <DD>&nbsp;
-<DT><A HREF="../net/sf/jsqlparser/statement/select/AllTableColumns.html#setTable(net.sf.jsqlparser.schema.Table)"><B>setTable(Table)</B></A> - 
+<DT><A HREF="../net/sf/jsqlparser/statement/select/AllTableColumns.html#setTable(net.sf.jsqlparser.schemaLoader.Table)"><B>setTable(Table)</B></A> -
 Method in class net.sf.jsqlparser.statement.select.<A HREF="../net/sf/jsqlparser/statement/select/AllTableColumns.html" title="class in net.sf.jsqlparser.statement.select">AllTableColumns</A>
 <DD>&nbsp;
-<DT><A HREF="../net/sf/jsqlparser/statement/truncate/Truncate.html#setTable(net.sf.jsqlparser.schema.Table)"><B>setTable(Table)</B></A> - 
+<DT><A HREF="../net/sf/jsqlparser/statement/truncate/Truncate.html#setTable(net.sf.jsqlparser.schemaLoader.Table)"><B>setTable(Table)</B></A> -
 Method in class net.sf.jsqlparser.statement.truncate.<A HREF="../net/sf/jsqlparser/statement/truncate/Truncate.html" title="class in net.sf.jsqlparser.statement.truncate">Truncate</A>
 <DD>&nbsp;
-<DT><A HREF="../net/sf/jsqlparser/statement/update/Update.html#setTable(net.sf.jsqlparser.schema.Table)"><B>setTable(Table)</B></A> - 
+<DT><A HREF="../net/sf/jsqlparser/statement/update/Update.html#setTable(net.sf.jsqlparser.schemaLoader.Table)"><B>setTable(Table)</B></A> -
 Method in class net.sf.jsqlparser.statement.update.<A HREF="../net/sf/jsqlparser/statement/update/Update.html" title="class in net.sf.jsqlparser.statement.update">Update</A>
 <DD>&nbsp;
 <DT><A HREF="../net/sf/jsqlparser/statement/create/table/CreateTable.html#setTableOptionsStrings(java.util.List)"><B>setTableOptionsStrings(List)</B></A> - 
